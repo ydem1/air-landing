@@ -34,6 +34,14 @@
       outline: none;
       border-bottom: 1px solid #144ed4;
     }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      -webkit-text-fill-color: #fff;
+      -webkit-box-shadow: 0 0 0px 1000px $footer-background-color inset;
+      transition: background-color 5000s ease-in-out 0s;
+    }
   }
 
   &__wrapper-button {
